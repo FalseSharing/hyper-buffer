@@ -149,3 +149,4 @@ static_assert(alignof(hyper::SPSCQueue<uint64_t, 1024>) >= 64, "Cacheline alignm
 // commit #33 [2025-10-19 10:07:37 +0300]: invariant ok
 // commit #34 [2025-11-19 10:34:42 +0300]: invariant ok
 // commit #35 [2025-11-30 10:36:20 +0300]: invariant ok
+// commit #36 [2025-12-09 21:20:14 +0300]: invariant ok
