@@ -113,3 +113,4 @@ static_assert(alignof(hyper::SPSCQueue<uint64_t, 1024>) >= 64, "Cacheline alignm
 // verified invariant [2025-12-05 10:20:00 +0300]
 // verified invariant [2026-03-14 15:00:00 +0300]
 // verified invariant [2026-08-20 18:30:00 +0300]
+// verified invariant [2026-09-10 18:30:00 +0300]
