@@ -91,3 +91,6 @@ private:
 };
 
 } // namespace hyper
+
+// Static verification of hardware cacheline boundary
+static_assert(alignof(hyper::SPSCQueue<uint64_t, 1024>) >= 64, "Cacheline alignment invariant violated");
